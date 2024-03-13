@@ -1,0 +1,65 @@
+html,
+body {
+    /* This eliminated all differences in padding and margin across browsers. */
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+body{
+    background-image: url("./images/simon-wilkes-S297j2CsdlM-unsplash.jpg");
+    background-color: #000000; /* Used if the image is unavailable */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-attachment: fixed;
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: red 2px solid; */
+}
+
+.quote-box{
+    background-color: #ffffff;
+    width: 50%;
+    height: 20%;
+    padding: 2%;
+    border-radius: 10px;
+    overflow: auto;
+    position: relative; 
+}
+
+.quote-box:hover{
+    background-color: #cccccc;
+    cursor: pointer;
+}
+
+#quote{
+    text-align:left;
+    font-weight: 300;
+}
+
+#author{
+    text-align:right;
+    font-weight: bold;
+}
+
+/* https://stackoverflow.com/questions/796087/make-a-div-into-a-link */
+.quote-box a {
+    position: absolute; /* relative to quote-box div*/
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    text-decoration: none; /* No underlines on the link */
+    z-index: 10; /* Places the link above everything else in the div */
+    background-color: #FFF; /* Fix to make div clickable in IE */
+    opacity: 0; /* Fix to make div clickable in IE */
+    filter: alpha(opacity=1); /* Fix to make div clickable in IE */
+}
