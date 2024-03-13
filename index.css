@@ -8,7 +8,7 @@ body {
     font-family: 'Inter', sans-serif;
 }
 body{
-    background-image: url("./images/simon-wilkes-S297j2CsdlM-unsplash.jpg");
+    background-image: url("./images/nature.jpg");
     background-color: #000000; /* Used if the image is unavailable */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
@@ -41,12 +41,12 @@ body{
 }
 
 #quote{
-    text-align:left;
+    text-align: left;
     font-weight: 300;
 }
 
 #author{
-    text-align:right;
+    text-align: right;
     font-weight: bold;
 }
 
