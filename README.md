@@ -5,7 +5,8 @@ My scrimba bootcamp solo project in module 2.
 I build it from scratch and use all the tricks and great practice I learned so far.
 I also learned from building:
 - how to setup background image perfectly
-- how to make a div into a link
+- responsive great practice about not using fixed width and height, use padding and line-height
+- how to make a div into a link without js
 - how to use js to change css
 
 Tried my best to make the page responsive, maybe should go back after learning module 4.
